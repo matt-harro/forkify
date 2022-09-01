@@ -1,0 +1,21 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe Applicaiton",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Matthew Harrison",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.4.1",
+    "core-js": "^3.22.5",
+    "parcel": "^2.4.1"
+  },
+  "dependencies": {
+    "fracty": "^1.0.11",
+    "htmlnano": "^2.0.2"
+  }
+}
